@@ -1,10 +1,17 @@
 import './App.css';
+import Navigation from './components/Navigation';
+import Information from './components/Information';
+import Footer from './components/Footer';
+
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div>
-      <h1>Hello</h1>
-    </div>
+    <main>
+      <Navigation />
+      <Information />
+      <Footer />
+    </main>
   );
 }
 
