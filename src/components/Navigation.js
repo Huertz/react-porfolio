@@ -39,7 +39,7 @@ export default function Navigation() {
             </li>
             <li class="nav-item">
               <a href="#instructors" class="nav-link">
-                Projectecs
+                Projects
               </a>
             </li>
           </ul>
