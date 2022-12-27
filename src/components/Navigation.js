@@ -1,4 +1,5 @@
 import '../App.css';
+import cv from '../docs/resume.pdf';
 
 export default function Navigation() {
   return (
@@ -38,8 +39,8 @@ export default function Navigation() {
               </a>
             </li>
             <li class="nav-item">
-              <a href="#instructors" class="nav-link">
-                Projects
+              <a href={cv} rel="noreferrer" className="nav-link">
+                Resume
               </a>
             </li>
           </ul>
